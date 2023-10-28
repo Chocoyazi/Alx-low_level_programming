@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
 	int sum = 0;
 
 	count = 1;
-	
+
 	while (count < argc)
 	{
 		if (check_num(argv[count]))
@@ -49,8 +49,7 @@ int main(int argc, char *argv[])
 
 			sum += str_to_int;
 		}
-
-		else 
+		else
 		{
 		printf("Error\n");
 		return (1);
